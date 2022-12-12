@@ -1,3 +1,168 @@
-body {
-    background-color: aquamarine;
+:root {
+  --bghead: #333;
+  --bg: #555;
+  --tx: #000;
+  --p: #BBBBBB;
+  --h1: #fff;
+  --h2: #FF9807;
+  --hover: #fff;
+  --hoverbg: #bbb;
+  --link: #bbb;
 }
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Rancho', Arial, sans-serif;
+  line-height: 1.5;
+  color: var(--tx);
+  background-color: var(--bg);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+h1 {
+  color: var(--h1);
+  text-shadow: 1px 1px 1px rgb(28, 0, 0, 9); 
+  letter-spacing: 1px;
+  padding: 0%;
+}
+h2 {
+  color: var(--h2);
+}
+p {
+  margin: 0;
+  color: var(--p);
+}
+a {
+  background-color: unset;
+  color: var(--link);
+  font-weight: bold;
+  text-decoration: none;
+}
+a:hover {
+  /*background-color: var(--hoverbg);*/
+  color: var(--hover)
+}
+
+/* Navigation bar styles */
+#mainNav {
+    background-color:var(--bg);
+    font-family: 'Rancho', Arial, sans-serif;
+    transition: all .35s;  
+    font-weight: 200;
+    letter-spacing: 1px;
+    padding: 0%;
+   
+  } 
+  
+  #mainNav .navbar-brand {
+    color: var(--tx);
+    font-family: 'Rancho', Arial, sans-serif;
+    font-size: h1;  
+    font-weight: 200;
+    letter-spacing: 1px;
+  }
+  
+  #mainNav .navbar-brand:hover, #mainNav .navbar-brand:focus {
+    color: var(--hover);
+    text-shadow: 1px 1px 1px rgb(28, 0, 0, 9); 
+  }
+  
+  #mainNav .navbar-toggler {
+    font-size: 12px;
+    padding: 8px 10px;
+    color: var(--tx);
+  }
+  
+  #mainNav .navbar-nav > li > a {
+    font-size: 14px;
+    font-family: 'Rancho', Arial, sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+  
+  #mainNav .navbar-nav > li > a.active {
+    color: var(--tx) !important;
+    background-color: transparent;
+  }
+  
+  #mainNav .navbar-nav > li > a.active:hover {
+    background-color: transparent;
+  }
+  
+  #mainNav .navbar-nav > li > a,
+  #mainNav .navbar-nav > li > a:focus {
+    color: var(--tx);
+  }
+  
+  #mainNav .navbar-nav > li > a:hover,
+  #mainNav .navbar-nav > li > a:focus:hover {
+    color: var(--hover);
+    text-shadow: 1px 1px 1px rgb(28, 0, 0, 9); 
+  }
+
+  /* Hero section */
+
+header.masthead {
+    position: relative;
+    width: 100%;
+    padding-top: 150px;
+    padding-bottom: 100px;
+    color: var(--tx);
+    background: url("../images/towerbridge.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+  
+  header.masthead .header-content {
+    max-width: 500px;
+    margin-bottom: 100px;
+    text-align: center;
+  }
+  
+  header.masthead .header-content h1 {
+    font-size: 30px;
+  }
+  
+  header.masthead .device-container {
+    max-width: 325px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  header.masthead .device-container .screen img {
+    border-radius: 3px;
+  }
+  
+  
+  section.download {
+    position: relative;
+    padding: 150px 0;
+  }
+  
+  section.download h2 {
+    font-size: 50px;
+    margin-top: 0;
+  }
+  
+  section.download .badges .badge-link {
+    margin-bottom: 25px;
+  }
+  
+  section.download .badges .badge-link:last-child {
+    margin-bottom: 0;
+  }
+  
+  section.download .badges .badge-link img {
+    height: 60px;
+  }
+
+  
