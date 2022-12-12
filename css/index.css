@@ -194,3 +194,30 @@ a:hover {
   .btn:hover {
     box-shadow: 0 5px 10px 0 rgba(0,0,0,0.5),0 5px 10px 0 rgba(0,0,0,0.8);
   }
+
+  /* About Me */
+  .aboutme,.valueProp,.col,.skill,.contact,.email {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .aboutme {
+    background: var(--bg);
+    font-size: 30px;
+  }
+  .valueProp {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  .col {
+    padding: 10px;
+    font-size: 30px;
+  }
+  .skill {
+  }
+  .contact {
+    font-size: 20px;
+  }
+  .email {
+    padding: 20px;
+  }
