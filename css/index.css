@@ -221,3 +221,13 @@ a:hover {
   .email {
     padding: 20px;
   }
+  footer {
+    padding: 10px 0;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.9);
+    background-color: var(--bghead);
+  }
+  footer p {
+    font-size: 13px;
+    margin: 0;
+  }
