@@ -52,8 +52,21 @@ a:hover {
   color: var(--hover)
 }
 
+/* Category Grid CSS *
+
+#categoryGrid {
+  margin: 0px 5%;
+  display: grid;
+  grid-template-rows: 300px 300px 300px;
+  grid-template-areas:
+  "am"
+  "mw"
+  "cm";
+}*/
+
+
 /* Navigation bar styles */
-#mainNav {
+  #mainNav {
     background-color:var(--bg);
     font-family: 'Rancho', Arial, sans-serif;
     transition: all .35s;  
@@ -111,7 +124,7 @@ a:hover {
 
   /* Hero section */
 
-header.masthead {
+  header.masthead {
     position: relative;
     width: 100%;
     padding-top: 150px;
@@ -165,4 +178,19 @@ header.masthead {
     height: 60px;
   }
 
-  
+  /* Cards */
+  .content {
+    padding: 50px;
+  }
+  .sectionHeading {
+    text-align: center;
+  }
+  .showsNear  {
+    padding: 0px 30px 30px 30px;
+  }
+  .cardContainer {
+    text-align: center;
+  }
+  .btn:hover {
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.5),0 5px 10px 0 rgba(0,0,0,0.8);
+  }
